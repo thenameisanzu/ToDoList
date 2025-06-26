@@ -1,3 +1,44 @@
+@media (max-width: 500px) {
+  .tasklist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  input {
+    width: 100%;
+    margin:0;
+  }
+
+  .addbtn {
+    width: 40%;
+    margin: 10px;
+  }
+
+  .task-container {
+    flex-direction: row;
+    align-self: flex-start;
+    
+    
+  }
+
+  .btn-container {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  
+}
+
+
 body {
   display: flex;
   justify-content: center;
